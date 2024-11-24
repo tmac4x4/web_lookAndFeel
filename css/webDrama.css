@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #faf8f8;
+    color: #333;
+    background-image: url('../img/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: rgba(171, 51, 0, 0.781);
+    color: #fff;
+    padding: 12px;
+}
+
+footer {
+    background-color: rgba(198, 68, 3, 0.794);
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    /*width: 100%;*/
+    height: 20px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 12px;
+  }
+
+.menu-bar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background: none;
+}
+
+.menu-bar li {
+    background: none;
+    margin: 0 10px;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+}
+
+.menu-bar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px;
+    transition: all 0.3s ease;
+}
+
+.menu-bar a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    /*border: 2px solid #fff;*/
+    border-radius: 5px;
+}
+
+main {
+    flex: 1;
+    padding: 10px;
+    background-color: rgba(253, 222, 192, 0.866);
+    /*border-radius: 8px;*/
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    color: #663300;
+}
+
+input[type="text"] {
+    width: 100%;
+    max-width: 400px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #b44800;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1rem;
+    outline: none;
+    box-shadow: none;
+}
+
+button:hover {
+    background-color: #7c2100;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.stylish-line {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    margin: 20px 0;
+}
+
+.centered {
+    text-align: center;
+}
+
+.centered-paragraph {
+    margin: 0 100px;
+    text-align: center;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-photo {
+    max-width: 200px;
+    border-radius: 10%;
+    margin-bottom: 10px;
+}

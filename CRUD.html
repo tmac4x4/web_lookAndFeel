@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Drama - Watch List</title>
+    <link rel="stylesheet" href="css/webDrama.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu-bar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="CRUD.html">Watch List</a></li>
+                <li><a href="analytics.html">Analytics</a></li>
+            </ul>
+        </nav>
+        <h1 class="centered">Web Drama!</h1>
+    </header>
+
+    <main>
+        <!-- Search Section which allows you to add movies displayed in search results-->
+        <section id="search-section">
+            <h2>Search and Add Movies</h2>
+            <form id="search-form">
+                <input type="text" id="movie-search" name="movieSearch" placeholder="Search for a movie" required>
+                <button type="submit" id="search-btn">Search</button>
+            </form>
+            <ul id="search-results"></ul>
+        </section>
+
+        <!-- Add Custom Movie Section Where user can freely type in a movie they know they want to watch-->
+        <section id="add-section">
+            <h2>Add a Custom Movie</h2>
+            <form id="add-movie-form">
+                <input type="text" id="custom-movie" name="customMovie" placeholder="Enter movie name" required>
+                <button type="submit" id="add-custom-btn">Add Movie</button>
+            </form>
+        </section>
+
+        <hr class="stylish-line">
+
+        <!-- Watchlist Section (shows the movies added to the watchlist with edit capability)-->
+        <!-- Also includes a dropdown if user wants to save their watchlist (saved to local device)-->
+        <section id="watchlist-section">
+            <h2>Your Watchlist</h2>
+            <ul id="watchlist"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Web Drama</p>
+    </footer>
+
+    <script src="js/dramaMoviesList.js"></script>
+    <script src="js/webDrama.js"></script>
+</body>
+</html>
